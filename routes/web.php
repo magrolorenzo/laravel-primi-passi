@@ -18,8 +18,22 @@ Route::get('/', function () {
 });
 
 Route::get('test', function () {
-    return view('prova');
+    $data = [
+        "rows" => [
+            "Riga 1",
+            "Riga 2",
+            "Riga 3",
+            "Riga 4",
+            "Riga 5"
+        ],
+    ];
+    return view('prova', $data);
 });
-Route::get('lorenzo', function () {
-    return view('lorenzo');
+
+Route::get('user', function () {
+    $data = [
+        "name" => "Lorenzo",
+        "surname" => "Magro"
+    ];
+    return view('user', $data);
 });

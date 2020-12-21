@@ -11,7 +11,8 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    Lorenzo
+                    <h1>Benvenuto {{ $name }} {{$surname}}
+                    </h1>
                 </div>
                 <div class="links">
                     <a href="/">Home</a>

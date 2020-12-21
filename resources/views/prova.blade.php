@@ -14,10 +14,18 @@
                 <div class="title m-b-md">
                     Prova
                 </div>
-
+                <div>
+                    <ul>
+                        @foreach ($rows as $row)
+                        <li>
+                            {{$row}}
+                        </li>
+                        @endforeach
+                    </ul>
+                </div>
                 <div class="links">
                     <a href="/">Home</a>
-                    <a href="lorenzo">Lorenzo</a>
+                    <a href="user">User</a>
                 </div>
             </div>
         </div>

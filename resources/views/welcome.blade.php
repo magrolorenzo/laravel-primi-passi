@@ -17,7 +17,7 @@
 
                 <div class="links">
                     <a href="test">Prova</a>
-                    <a href="lorenzo">Lorenzo</a>
+                    <a href="user">User</a>
                 </div>
             </div>
         </div>
