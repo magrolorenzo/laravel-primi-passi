@@ -24,8 +24,8 @@
                     </ul>
                 </div>
                 <div class="links">
-                    <a href="/">Home</a>
-                    <a href="user">User</a>
+                    <a href={{ url("/") }}>Home</a>
+                    <a href={{ url("user") }}>User</a>
                 </div>
             </div>
         </div>

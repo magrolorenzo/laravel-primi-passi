@@ -16,8 +16,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="test">Prova</a>
-                    <a href="user">User</a>
+                    <a href={{ url("test") }}>Prova</a>
+                    <a href={{ url("user") }}>User</a>
                 </div>
             </div>
         </div>
